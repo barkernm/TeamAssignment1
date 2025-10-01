@@ -23,16 +23,52 @@
 		</ul>
 	</nav>
 	<aside>
-
-		<h4>Add 2025-26 guest speakers (see completed membership page in the assignment instruction - page 8) </h4>
 		<!-- Add the codes for showing 2025-2026 speakers information to the sidebar as a table format. You can reuse some code in home.html and home.css -->
-		
+		<h1>2025-2026 guest speakers</h1>
+        <table>
+            <tr>
+                <td>Date</td>
+                <td>Speakers</td>
+                <td>Price</td>
+            </tr>
+            <tr>
+                <td>August 19,2025</td>
+                <td>Jeff Toobin</td>
+                <td>$40</td>
+            </tr>
+            <tr>
+                <td>September 2, 2025</td>
+                <td>Andrew Ross Sorkin</td>
+                <td>$50</td>
+            </tr>
+            <tr>
+                <td>March 19, 2026</td>
+                <td>Amy Chua</td>
+                <td>$50</td>
+            </tr>
+            <tr>
+                <td>April 24, 2026</td>
+                <td>Scott Sampson</td>
+                <td>$55</td>
+            </tr>
+            <tr>
+                <td>June 22, 2026</td>
+                <td>Carlos Eire</td>
+                <td>$55</td>
+            </tr>
+            <tr>
+                <td>August 19, 2026</td>
+                <td>Ronan Tynan</td>
+                <td>$60</td>
+            </tr>
+        </table><br>
 		<!-- Add Location header and Google Map here -->
-
+		<h1>Location</h1>
+		<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6156.508721502298!2d-84.73449149999999!3d39.508748499999996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x884022c4d025ec71%3A0xfce7a4ae2c12bf0f!2sMiami%20University!5e0!3m2!1sen!2sus!4v1759358456683!5m2!1sen!2sus" title="location" width="350" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 	</aside>
 	<article>
 		<h2>Become a Member</h2>
-		<form action="add your formspree.io code" method="post" name="registration_form" id="registration_form">
+		<form action="https://formspree.io/f/mpwyrqoe" method="post" name="registration_form" id="registration_form">
 			<fieldset>
 				<legend>Registration Information</legend>
 				<label for="email">E-Mail:</label>
@@ -44,7 +80,28 @@
 			</fieldset>
 			<fieldset>
 				<legend> Membership Information </legend>
-				<h4> Add other information and text boxes shown in the completed membership screenshot in page 8 of the instruction <br><br><br><br><br><br></h4>
+				<legend> Membership Information </legend>
+				<label for="firstname">First Name:</label>
+				<input type="text" name="firstname" id="firstname" required><br>
+				<label for="lastname">Last Name:</label>
+				<input type="text" name="lastname" id="lastname" required><br>
+				<label for="address">Address:</label>
+				<input type="text" name="adress" id="address"><br>
+				<label for="city">City:</label>
+				<input type="text" name="city" id="city"><br>
+				<label for="state">State:</label>
+				<input type="text" name="state" id="state" placeholder="2-character code (e.g. OH)"><br>
+				<label for="zipcode">ZIP Code:</label>
+				<input type="number" name="zipcode" id="zipcode" placeholder="5 or 9 digits"><br>
+				<label for="phonenumber">Phone Number:</label>
+				<input type="tel" name="phonenumber" id="phonenumber" required placeholder="999-999-9999"><br>
+				<label for="membershiptype">Membership Type:</label>
+				<select name="membershiptype" id="membershiptype">
+				    <option value="Diamond">Diamond</option>
+				    <option value="Gold">Gold</option>
+				    <option value="Silver">Silver</option>
+					<option value="Bronze">Bronze</option>
+				</select>			
 			</fieldset>
 
 			<!-- Add the Member Information and Text Boxes shown in the handout -->
@@ -56,8 +113,9 @@
 				<input type="submit" id="submit" value="Submit">
 
 				<!-- Add reset button here -->
-
-			</fieldset>
+                <label>&nbsp;</label>
+                <input type="reset" id="reset" value="Reset">
+			</fieldset><br><br>
 		</form>
 	</article>
 	<footer>
