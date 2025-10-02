@@ -1,44 +1,42 @@
 <!doctype html>
 <html lang="en">
-
 <head>
-    <meta charset="utf-8">
-    <title>Oxford Town Hall</title>
-    <link rel="shortcut icon" href="images/oxford_logo.jpg">
-    <link rel="stylesheet" href="styles/membership.css">
+	<meta charset="utf-8">
+	<title>Oxford Town Hall</title>
+	<link rel="shortcut icon" href="images/oxford_logo.jpg">
+	<link rel="stylesheet" href="styles/membership.css">
 </head>
-
 <body>
-    <header>
-        <img src="images/oxford.jpg" alt="Town Hall Logo" width="80" height="60">
-        <hgroup>
-            <h1>Oxford Town Hall</h1>
-            <h2>Bringing cutting-edge speakers to Oxford for 81 years!</h2>
-        </hgroup>
-    </header>
-    <nav id="nav_bar">
-        <ul>
-            <li><a href="home.html">Home</a></li>
-            <li><a href="">About Us</a></li>
-            <li><a href="tickets.html">Get Tickets</a></li>
-            <li><a class="current" href="membership.html">Membership</a></li>
-        </ul>
-    </nav>
-    <aside>
-        <!-- Add the codes for showing 2025-2026 speakers information to the sidebar as a table format. You can reuse some code in home.html and home.css -->
-        <h1>2025-2026 guest speakers</h1>
+	<header>
+		<img src="images/oxford.jpg" alt="Town Hall Logo" width="80" height="60">
+		<hgroup>
+			<h1>Oxford Town Hall</h1>
+			<h2>Bringing cutting-edge speakers to Oxford for 81 years!</h2>
+		</hgroup>
+	</header>
+	<nav id="nav_bar">
+		<ul>
+			<li><a href="home.html">Home</a></li>
+			<li><a href="">About Us</a></li>
+			<li><a href="tickets.html">Get Tickets</a></li>
+			<li><a class="current" href="membership.html">Membership</a></li>
+		</ul>
+	</nav>
+	<aside>
+		<!-- Add the codes for showing 2025-2026 speakers information to the sidebar as a table format. You can reuse some code in home.html and home.css -->
+		<h1>2025-2026 guest speakers</h1>
         <table>
             <tr>
-                <th>Date</th>
-                <th>Speakers</th>
-                <th>Price</th>
+                <td>Date</td>
+                <td>Speakers</td>
+                <td>Price</td>
             </tr>
-            <tr id="passed">
+            <tr>
                 <td>August 19,2025</td>
                 <td>Jeff Toobin</td>
                 <td>$40</td>
             </tr>
-            <tr id="passed">
+            <tr>
                 <td>September 2, 2025</td>
                 <td>Andrew Ross Sorkin</td>
                 <td>$50</td>
@@ -64,65 +62,66 @@
                 <td>$60</td>
             </tr>
         </table><br>
-        <!-- Add Location header and Google Map here -->
-        <h1>Location</h1>
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6156.508721502298!2d-84.73449149999999!3d39.508748499999996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x884022c4d025ec71%3A0xfce7a4ae2c12bf0f!2sMiami%20University!5e0!3m2!1sen!2sus!4v1759358456683!5m2!1sen!2sus" title="location" width="345" height="280" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-    </aside>
-    <article>
-        <form action="https://formspree.io/f/mpwyrqoe" method="post" name="registration_form" id="registration_form">
-            <fieldset>
-                <legend>Registration Information</legend>
-                <label for="email">E-Mail:</label>
-                <input type="email" name="email" id="email" autofocus required><br>
-                <label for="password">Password:</label>
-                <input type="password" name="password" id="password" required placeholder="At least 6 letters or numbers"><br>
-                <label for="verify">Verify Password:</label>
-                <input type="password" name="verify" id="verify" required><br>
-            </fieldset>
-            <fieldset>
-                <legend> Membership Information </legend>
-                <label for="firstname">First Name:</label>
-                <input type="text" name="firstname" id="firstname" required><br>
-                <label for="lastname">Last Name:</label>
-                <input type="text" name="lastname" id="lastname" required><br>
-                <label for="address">Address:</label>
-                <input type="text" name="adress" id="address"><br>
-                <label for="city">City:</label>
-                <input type="text" name="city" id="city"><br>
-                <label for="state">State:</label>
-                <input type="text" name="state" id="state" placeholder="2-character code (e.g. OH)"><br>
-                <label for="zipcode">ZIP Code:</label>
-                <input type="number" name="zipcode" id="zipcode" placeholder="5 or 9 digits"><br>
-                <label for="phonenumber">Phone Number:</label>
-                <input type="tel" name="phonenumber" id="phonenumber" required placeholder="999-999-9999"><br>
-                <label for="membershiptype">Membership Type:</label>
-                <select name="membershiptype" id="membershiptype">
-                    <option value="Diamond">Diamond</option>
-                    <option value="Gold">Gold</option>
-                    <option value="Silver">Silver</option>
-                    <option value="Bronze">Bronze</option>
-                </select>
-            </fieldset>
+		<!-- Add Location header and Google Map here -->
+		<h1>Location</h1>
+		<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6156.508721502298!2d-84.73449149999999!3d39.508748499999996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x884022c4d025ec71%3A0xfce7a4ae2c12bf0f!2sMiami%20University!5e0!3m2!1sen!2sus!4v1759358456683!5m2!1sen!2sus" title="location" width="350" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 
-            <!-- Add the Member Information and Text Boxes shown in the handout -->
+	</aside>
+	<article>
+		<h2>Become a Member</h2>
+		<form action="https://formspree.io/f/mpwyrqoe" method="post" name="registration_form" id="registration_form">
+			<fieldset>
+				<legend>Registration Information</legend>
+				<label for="email">E-Mail:</label>
+				<input type="email" name="email" id="email" autofocus required><br>
+				<label for="password">Password:</label>
+				<input type="password" name="password" id="password" required placeholder="At least 6 letters or numbers"><br>
+				<label for="verify">Verify Password:</label>
+				<input type="password" name="verify" id="verify" required><br>
+			</fieldset>
+			<fieldset>
+				<legend> Membership Information </legend>
+				<label for="firstname">First Name:</label>
+				<input type="text" name="firstname" id="firstname" required><br>
+				<label for="lastname">Last Name:</label>
+				<input type="text" name="lastname" id="lastname" required><br>
+				<label for="address">Address:</label>
+				<input type="text" name="adress" id="address"><br>
+				<label for="city">City:</label>
+				<input type="text" name="city" id="city"><br>
+				<label for="state">State:</label>
+				<input type="text" name="state" id="state" placeholder="2-character code (e.g. OH)"><br>
+				<label for="zipcode">ZIP Code:</label>
+				<input type="number" name="zipcode" id="zipcode" placeholder="5 or 9 digits"><br>
+				<label for="phonenumber">Phone Number:</label>
+				<input type="tel" name="phonenumber" id="phonenumber" required placeholder="999-999-9999"><br>
+				<label for="membershiptype">Membership Type:</label>
+				<select name="membershiptype" id="membershiptype">
+				    <option value="Diamond">Diamond</option>
+				    <option value="Gold">Gold</option>
+				    <option value="Silver">Silver</option>
+					<option value="Bronze">Bronze</option>
+				</select>
+			</fieldset>
 
-            <fieldset id="buttons">
-                <legend>Submit Your Membership</legend>
+			<!-- Add the Member Information and Text Boxes shown in the handout -->
+
+			<fieldset id="buttons">
+				<legend>Submit Your Membership</legend>
+				<label>&nbsp;</label>
+				<input type="submit" id="submit" value="Submit">
+				<!-- Add reset button here -->
                 <label>&nbsp;</label>
-                <input type="submit" id="submit" value="Submit">
-
-                <!-- Add reset button here -->
                 <input type="reset" id="reset" value="Reset">
-            </fieldset><br><br>
-        </form>
-    </article>
-    <footer>
-        <p>&copy; Copyright <span id="year"> </span> Oxford Town Hall.</p>
-        <script>
-            var d = new Date();
-            document.getElementById("year").innerHTML = d.getFullYear();
-        </script>
-    </footer>
+			</fieldset><br><br>
+		</form>
+	</article>
+	<footer>
+		<p>&copy; Copyright <span id="year"> </span> Oxford Town Hall.</p>
+		<script>
+			var d = new Date();
+			document.getElementById("year").innerHTML = d.getFullYear();
+		</script>
+	</footer>  
 </body>
-
 </html>
